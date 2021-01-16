@@ -63,7 +63,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ---
 
   ## Contributing to This Repo
-  Please Contact me.
+  To contribute to this project, clone this project repository locally, create a new branch, and install all dependencies using 'npm install'. After modifying the code, verify all edits/changes are clearly commented and submit a push request which includes a summary of the edits. I will review all contributions prior to incorporating them into the repo.
 
 ---
 
