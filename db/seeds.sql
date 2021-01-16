@@ -3,7 +3,7 @@ USE burgers_db;
 
 -- Starter burgers to seed into database
 INSERT INTO
-    bugers (burger_name, devoured)
+    burgers (burger_name, devoured)
 VALUES
     ('Bluecheese Angus Buger', 0),
     ('California Burger with Avacado', 0),
