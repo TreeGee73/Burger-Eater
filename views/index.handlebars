@@ -8,9 +8,9 @@
         <div class="row">
             <div class="col-md-12">
                 <h2>If you could eat any burger right now, what would it be?</h2>
-                <form class="form-spacer">
+                <form class="create-form form-spacer">
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="e.g. Bluecheese Angus Burger, Zen Chicken Burger, etc." aria-label="burger_name" aria-describedby="button-addon2">
+                        <input type="text" class="form-control" id="burger" name="burger_name" placeholder="e.g. Bluecheese Angus Burger, Zen Chicken Burger, etc." aria-label="burger_name" aria-describedby="button-addon2">
                         <button class="btn btn-outline-secondary btn-green" type="submit" id="button-addon2">Add Burger</button>
                     </div>
                     {{!-- <div class="form-group">
@@ -34,7 +34,7 @@
             </div>
             <div class="col-md-2"></div>
             <div class="col-md-5">
-                <h2 class="text-center">ATE THESE BURGERS <em>*burp*</em>!</h2>
+                <h2 class="text-center">ATE THESE BURGERS! <em>*burp*</em></h2>
                 <ul>
                     {{#each burgers}}
                     {{#if devoured}}
