@@ -16,6 +16,18 @@ h2 {
     text-align: center;
     color: #071f12;
     font-family: 'Permanent Marker', cursive;
+    margin-top: .5rem;
+}
+
+.btn-green {
+    background-color:#071f12;
+    color:#9999cc
+}
+
+.row-decor {
+    border-top-color: #9999cc;
+    border-top-style: double;
+    border-top-width: .25rem;
 }
 
 .p-footer {
@@ -28,8 +40,8 @@ h2 {
 .footer {
     width: 100%;
     text-align: center;
-    /* position: fixed; */
-    /* bottom: 0rem; */
+    position: fixed;
+    bottom: 0rem;
 }
 
 .hr-bottom {

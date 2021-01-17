@@ -1,18 +1,27 @@
 <div>
+    <header>
+        <h1>All the burgers, none of the calories!</h1>
+        <img class="img-fluid rounded mx-auto d-block" src="/assets/images/hero.jpg" alt="burger sign" title="burger sign">
+    </header>
     <!-- Container: Text and Data Collection from the User -->
     <section class="content container cont-bg-mgr">
         <div class="row">
             <div class="col-md-12">
+                <h2>If you could eat any burger right now, what would it be?</h2>
                 <form class="form-spacer">
-                    <div class="form-group">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="e.g. Bluecheese Angus Burger, Zen Chicken Burger, etc." aria-label="burger_name" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary btn-green" type="submit" id="button-addon2">Add Burger</button>
+                    </div>
+                    {{!-- <div class="form-group">
                         <label class="label-larger" for="burger_name">If you could eat any burger right now, what would it be?</label>
                         <input type="text" class="form-control" id="burger_name" placeholder="e.g. Bluecheese Angus Burger, Zen Chicken Burger, etc." />
                         <button type="submit">Order</button>
-                    </div>
+                    </div> --}}
                 </form>
             </div>
         </div>
-        <div class="row">
+        <div class="row row-decor">
             <div class="col-md-5">
                 <h2 class="text-center">EAT THESE BURGERS!</h2>
                 <ul>
