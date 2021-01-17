@@ -1,0 +1,43 @@
+body {
+    background-image: url('../images/background.jpg');
+    background-size: auto;
+    background-color: #9999cc;
+    color: #141450;
+    font-family: 'Cherry Cream Soda', cursive;
+}
+
+h1 {
+    text-align: center;
+    color: #071f12;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+    text-align: center;
+    color: #071f12;
+    font-family: 'Permanent Marker', cursive;
+    font-size: smaller;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0rem;
+}
+
+.hr-bottom {
+    height: 5px;
+    background-color: #141450;
+    vertical-align: top;
+    margin-top: 0rem;
+}
+
+.form-spacer{
+    margin-top: 2rem;
+}
+
+.label-larger {
+    font-size: larger;
+    margin-bottom: .25rem;
+}
