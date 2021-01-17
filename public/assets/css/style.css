@@ -21,7 +21,12 @@ h2 {
 
 .btn-green {
     background-color:#071f12;
-    color:#9999cc
+    color:#9999cc;
+}
+
+.eat-btn {
+    color:#071f12;
+    /* background-color:#9999cc; */
 }
 
 .row-decor {
@@ -58,4 +63,8 @@ h2 {
 .label-larger {
     font-size: larger;
     margin-bottom: .25rem;
+}
+
+.list-deco {
+    padding-bottom: .50rem;
 }

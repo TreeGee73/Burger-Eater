@@ -1,8 +1,8 @@
-<li>
+<li class="list-deco">
   {{burger_name}}
 
   {{#unless devoured}}
-  <button class="devour-btn" data-id="{{id}}" data-devoured="{{devoured}}">Take a Bite!!!</button>
+  <button class="btn btn-outline-secondary eat-btn" data-id="{{id}}" data-devoured="{{devoured}}">Take a Bite!!!</button>
   {{else}}
   {{/unless}}
 </li>
