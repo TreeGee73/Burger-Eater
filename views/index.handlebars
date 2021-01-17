@@ -1,25 +1,38 @@
 <div>
-    
     <!-- Container: Text and Data Collection from the User -->
     <section class="content container cont-bg-mgr">
         <div class="row">
             <div class="col-md-12">
-                <h1>All the burgers, none of the calories!</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 ">
-                <img class="img-fluid rounded mx-auto d-block" src="/assets/images/hero.jpg" alt="burger sign" title="burger sign">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <form>
-                    <div class="form-group form-spacer">
+                <form class="form-spacer">
+                    <div class="form-group">
                         <label class="label-larger" for="burger_name">If you could eat any burger right now, what would it be?</label>
                         <input type="text" class="form-control" id="burger_name" placeholder="e.g. Bluecheese Angus Burger, Zen Chicken Burger, etc." />
+                        <button type="submit">Order</button>
                     </div>
                 </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <h2 class="text-center">EAT THESE BURGERS!</h2>
+                <ul>
+                    {{#each burgers}}
+                    {{#unless devoured}}
+                    {{> burgers devoured=false}}
+                    {{/unless}}
+                    {{/each}}
+                </ul>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-5">
+                <h2 class="text-center">ATE THESE BURGERS <em>*burp*</em>!</h2>
+                <ul>
+                    {{#each burgers}}
+                    {{#if devoured}}
+                    {{> burgers devoured=true}}
+                    {{/if}}
+                    {{/each}}
+                </ul>
             </div>
         </div>
     </section>

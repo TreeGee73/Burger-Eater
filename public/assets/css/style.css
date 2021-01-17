@@ -16,19 +16,25 @@ h2 {
     text-align: center;
     color: #071f12;
     font-family: 'Permanent Marker', cursive;
+}
+
+.p-footer {
+    text-align: center;
+    color: #071f12;
+    font-family: 'Permanent Marker', cursive;
     font-size: smaller;
 }
 
 .footer {
     width: 100%;
     text-align: center;
-    position: fixed;
-    bottom: 0rem;
+    /* position: fixed; */
+    /* bottom: 0rem; */
 }
 
 .hr-bottom {
     height: 5px;
-    background-color: #141450;
+    background-color: #071f12;
     vertical-align: top;
     margin-top: 0rem;
 }
