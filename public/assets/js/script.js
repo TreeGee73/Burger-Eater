@@ -1,34 +1,44 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(function () {
-  // Tells the Add Burger button what to do when clicked (submitted)
-  $(".create-form").on("submit", function (event) {
+  $(".delete").on("click", function (event) {
     // Make sure to preventDefault on a submit event.
     event.preventDefault();
-    let newBurger = {
-      burger_name: $("#burger").val().trim(),
-    };
-    // Send the POST request.
-    $.ajax("/api/burgers", {
-      type: "POST",
-      data: newBurger,
+    const id = $(this).data("id");
+    // Send the DELETE request.
+    $.ajax({
+      url: "/api/delete-burgers/" + id,
+      method: "DELETE",
     }).then(function () {
       // Reload the page to get the updated list
       location.reload();
     });
   });
-  
-  $(".change-devoured").on("click", function (event) {
-    var id = $(this).data("id");
-    var newDevoured = $(this).data("newdevoured");
 
-    var newDevouredState = {
-      devoured: newDevoured,
-    };
-
+  $(".devour").on("click", function (event) {
+    // Make sure to preventDefault on a submit event.
+    event.preventDefault();
+    let id = $(this).data("id");
     // Send the PUT request.
-    $.ajax("/api/burgers/" + id, {
-      type: "PUT",
-      data: newDevouredState,
+    $.ajax({
+      url: "/api/eat-burgers/" + id,
+      method: "PUT",
+    }).then(function () {
+      // Reload the page to get the updated list
+      location.reload();
+    });
+  });
+
+  $(".create-form").on("submit", function (event) {
+    // Make sure to preventDefault on a submit event.
+    event.preventDefault();
+    let burger = {
+      burger_name: $("#burger").val().trim(),
+    };
+    // Send the POST request.
+    $.ajax({
+      url: "/api/add-burgers",
+      method: "POST",
+      data: burger,
     }).then(function () {
       // Reload the page to get the updated list
       location.reload();

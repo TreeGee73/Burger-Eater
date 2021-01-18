@@ -9,7 +9,8 @@ USE burgers_db;
 
 -- Create burgers table
 CREATE TABLE burgers (
-    id INT PRIMARY KEY AUTO_INCREMENT,
+    id INT NOT NULL AUTO_INCREMENT,
     burger_name VARCHAR(100) NOT NULL,
-    devoured BOOLEAN NOT NULL DEFAULT FALSE
+    devoured BOOLEAN NOT NULL DEFAULT FALSE,
+    PRIMARY KEY (id)
 );

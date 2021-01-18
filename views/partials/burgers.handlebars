@@ -1,8 +1,13 @@
 <li class="list-deco">
   {{burger_name}}
+{{#if devoured}}
+	<button class="delete" data-id="{{id}}">Clear the Empty Plate</button>
 
-  {{#unless devoured}}
+	{{else}}
+	<button class="devour" data-id="{{id}}">Eat!!!</button>
+	{{/if}}
+  {{!-- {{#unless devoured}}
   <button class="btn btn-outline-secondary eat-btn" data-id="{{id}}" data-devoured="{{devoured}}">Take a Bite!!!</button>
   {{else}}
-  {{/unless}}
+  {{/unless}} --}}
 </li>

@@ -3,8 +3,8 @@ const express = require('express');
 const exphbs = require('express-handlebars');
 const routes = require('./controllers/burgerController');
 
-const app = express();
 const PORT = process.env.PORT || 6614;
+const app = express();
 
 // Middleware
 app.use(express.static('public'));
