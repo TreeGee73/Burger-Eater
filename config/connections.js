@@ -17,4 +17,4 @@ if (process.env.JAWSDB_URL) {
 // Initiate MySQL connection
 connection.connect();
 
-module.exports = connections;
+module.exports = connection;
