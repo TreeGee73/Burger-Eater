@@ -36,7 +36,7 @@ router.put("/api/eat-burgers/:id", function (req, res) {
 
 // Route to delete data
 router.delete("/api/delete-burgers/:id", function (req, res) {
-  burger.deleteBurger(req.params.id, function (err, data) {
+  burgers.deleteBurger(req.params.id, function (err, data) {
     if (err) {
       res.status(500).end();
     } else if (data.affectedRows == 0) {
