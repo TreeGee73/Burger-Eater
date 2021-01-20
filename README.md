@@ -22,7 +22,7 @@ In this assignment, you'll create a burger logger with MySQL, Node, Express, Han
   ## Usage
 Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page. The app will store every burger in a database, whether devoured or not.
 
-This app can be run by accessing through Heroku here [Link TBA](Link TBA).
+This app can be run by accessing through Heroku here [https://salty-sierra-88581.herokuapp.com/](https://salty-sierra-88581.herokuapp.com/).
 
 ---
 
@@ -52,13 +52,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ---
 
   ## Images / Demo Video
-  <!-- A video demonstration of this application can be found [here](https://youtu.be/8QQGD-kPY20).
-  Click the image to launch the video. -->
+  A video demonstration of this application can be found [here](https://youtu.be/5ZNYhutNckw).
+  Click the image to launch the video.
 
-  <!-- [![Screeshot](Screenshot.jpg)](https://www.youtube.com/watch?v=8QQGD-kPY20 "Demo") -->
-
-  TBA <br />
-<img src="Screenshot.jpg" />
+  [![Screeshot](Screenshot.jpg)](https://www.youtube.com/watch?v=5ZNYhutNckw "Demo")
 
 ---
 
