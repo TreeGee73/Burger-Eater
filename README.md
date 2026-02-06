@@ -1,7 +1,7 @@
 # Burger Eater
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
-<img src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/mysql-%2300f.svg?&style=for-the-badge&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/express.js%20-%23404d59.svg?&style=for-the-badge"/> <img src="https://img.shields.io/badge/heroku%20-%23430098.svg?&style=for-the-badge&logo=heroku&logoColor=white"/>
+<img src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/mysql-%2300f.svg?&style=for-the-badge&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/express.js%20-%23404d59.svg?&style=for-the-badge"/>
 
 ## Table of Contents
   * [Description](#description)
@@ -22,8 +22,6 @@ In this assignment, you'll create a burger logger with MySQL, Node, Express, Han
   ## Usage
 Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page. The app will store every burger in a database, whether devoured or not.
 
-This app can be run by accessing through Heroku here [https://salty-sierra-88581.herokuapp.com/](https://salty-sierra-88581.herokuapp.com/).
-
 ---
 
   ## Technology
@@ -33,9 +31,7 @@ This app utilizes the following technologies:
  - [MySQL](https://www.mysql.com/)
  - [Express](http://expressjs.com/)
  - [Express Handlebars](https://www.npmjs.com/package/express-handlebars)
- - [Heroku](https://www.heroku.com/)
-
-
+   
 ---
 
   ## License
@@ -67,4 +63,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   ## Questions / Contact Details
   This app can be found on my Github page at [TreeGee73](https://github.com/TreeGee73).
 
-  If you have any questions or need to contact me about this app, I can reached either on Github or by email at [treegee73@gmail.com](treegee73@gmail.com).
+  If you have any questions or need to contact me about this app, I can reached either on Github or by email.
